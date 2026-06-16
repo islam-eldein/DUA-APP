@@ -72,7 +72,7 @@ class AppInfoScreen extends StatelessWidget {
                 borderRadius: BorderRadius.circular(20),
               ),
               child: Text(
-                'الاصدار 5.0.0',
+                'الإصدار 5.0.0',
                 style: GoogleFonts.cairo(
                   fontSize: 12,
                   fontWeight: FontWeight.bold,
@@ -191,7 +191,7 @@ class AppInfoScreen extends StatelessWidget {
           ),
           const SizedBox(height: 8),
           Text(
-            'للاقتراحات أو الإبلاغ عن أي مشكلة تقنية، يمكنك التواصل مباشرة مع المطور عبر تيليجرام',
+            'للإقتراحات أو الإبلاغ عن أي مشكلة تقنية، يمكنك التواصل مباشرة مع المطور عبر تطبيق تيليجرام',
             style: GoogleFonts.cairo(
               fontSize: 13,
               color: AppColors.textSecondary,
@@ -223,7 +223,7 @@ class AppInfoScreen extends StatelessWidget {
                     const Icon(Icons.send_rounded, color: Colors.white, size: 20),
                     const SizedBox(width: 12),
                     Text(
-                      'مراسلة عبر تليجرام',
+                      'ISLAM ELDEIN',
                       style: GoogleFonts.cairo(
                         color: Colors.white,
                         fontWeight: FontWeight.bold,

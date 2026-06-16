@@ -77,7 +77,7 @@ class _HomeScreenState extends State<HomeScreen> {
                   ),
                   const SizedBox(height: 16),
                   Text(
-                    'Dua Assistant',
+                    'دوا - Dua',
                     style: GoogleFonts.cairo(
                       color: Colors.white,
                       fontSize: 24,
@@ -241,7 +241,7 @@ class _HomeScreenState extends State<HomeScreen> {
             color: AppColors.textPrimary,
           ),
           decoration: InputDecoration(
-            hintText: 'ابحث عن اسم الدواء...',
+            hintText: 'ابحث عن اسم الدواء..',
             hintStyle: GoogleFonts.cairo(
               color: AppColors.textLight.withValues(alpha: 0.6),
               fontSize: 16,

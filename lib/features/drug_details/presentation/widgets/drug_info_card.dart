@@ -51,7 +51,7 @@ class DrugInfoCard extends StatelessWidget {
     } else if (state is DrugDetailsError) {
       infoText = (state as DrugDetailsError).message;
     } else {
-      infoText = 'جاري التحميل...';
+      infoText = 'جاري التحميل..';
     }
 
     return FadeInUp(

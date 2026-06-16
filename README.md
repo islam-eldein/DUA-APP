@@ -157,7 +157,7 @@ Contributions are what make the open-source community such an amazing place to l
 
 If you have any questions or need support, feel free to reach out:
 
-- **Developer**: [ISLAM ELDEIN](https://github.com/islam_eldein)
+- **GitHub**: [ISLAM ELDEIN](https://github.com/islam_eldein)
 - **Telegram**: [ISLAM ELDEIN](https://t.me/islam_eldein)
 - **Project Link**: [https://github.com/islam-eldein/DUA-APP](https://github.com/islam-eldein/DUA-APP)
 

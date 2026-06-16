@@ -17,7 +17,7 @@ class DrugDetailsRepositoryImpl implements DrugDetailsRepository {
     } on ServerException catch (e) {
       return Left(ServerFailure(e.message));
     } on NetworkException {
-      return const Left(NetworkFailure('مشكلة في الاتصال بالإنترنت'));
+      return const Left(NetworkFailure('مشكلة في الإتصال بالإنترنت'));
     } catch (e) {
       return Left(ServerFailure(e.toString()));
     }

@@ -102,7 +102,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen> {
             .trim();
 
     try {
-      _showSnackBar("جاري تجهيز الصورة للمشاركة...");
+      _showSnackBar("جاري تجهيز الصورة للمشاركة..");
 
       final image = await screenshotController.captureFromLongWidget(
         Container(
@@ -135,7 +135,7 @@ class _DrugDetailsScreenState extends State<DrugDetailsScreen> {
       await imagePath.writeAsBytes(image);
 
       final shareText =
-          'اسم الدواء: ${widget.drug.name}\n\nالسعر: ${widget.drug.price} جنيه\n\nالتفاصيل :${drugInfo}\n\n لتحميل التطبيق من هنا : https://t.me/elshafey_Team';
+          'اسم الدواء: ${widget.drug.name}\n\nالسعر: ${widget.drug.price} جنيه\n\nالتفاصيل :${drugInfo}\n\n لتحميل التطبيق من هنا : https://t.me/Dev_Premium';
 
       await Share.shareXFiles(
         [XFile(imagePath.path)],
