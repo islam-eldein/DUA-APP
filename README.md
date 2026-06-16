@@ -5,14 +5,14 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/MOELSHAFEY/Dua-application">
-    <img src="https://img.shields.io/github/stars/MOELSHAFEY/Dua-application?style=for-the-badge&color=1E40AF" alt="Stars">
+  <a href="https://github.com/islam-eldein/DUA-APP">
+    <img src="https://img.shields.io/github/stars/islam-eldein/DUA-APP?style=for-the-badge&color=1E40AF" alt="Stars">
   </a>
-  <a href="https://github.com/MOELSHAFEY/Dua-application/network/members">
-    <img src="https://img.shields.io/github/forks/MOELSHAFEY/Dua-application?style=for-the-badge&color=0D9488" alt="Forks">
+  <a href="https://github.com/islam-eldein/DUA-APP/network/members">
+    <img src="https://img.shields.io/github/forks/islam-eldein/DUA-APP?style=for-the-badge&color=0D9488" alt="Forks">
   </a>
-  <a href="https://github.com/MOELSHAFEY/Dua-application/blob/main/LICENSE">
-    <img src="https://img.shields.io/github/license/MOELSHAFEY/Dua-application?style=for-the-badge&color=1E40AF" alt="License">
+  <a href="https://github.com/islam-eldein/DUA-APP/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/islam-eldein/DUA-APP?style=for-the-badge&color=1E40AF" alt="License">
   </a>
   <img src="https://img.shields.io/badge/Flutter-^3.7.2-02569B?style=for-the-badge&logo=flutter" alt="Flutter Version">
 </p>
@@ -124,11 +124,11 @@ lib/
 ### 🛠️ Step-by-Step Guide
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/MOELSHAFEY/Dua-application.git
+   git clone https://github.com/islam-eldein/DUA-APP.git
    ```
 2. **Navigate to the project directory:**
    ```bash
-   cd Dua-application
+   cd DUA-APP
    ```
 3. **Install dependencies:**
    ```bash
@@ -159,7 +159,7 @@ If you have any questions or need support, feel free to reach out:
 
 - **Developer**: [ISLAM ELDEIN](https://github.com/islam_eldein)
 - **Telegram**: [ISLAM ELDEIN](https://t.me/islam_eldein)
-- **Project Link**: [https://github.com/MOELSHAFEY/Dua-application](https://github.com/MOELSHAFEY/Dua-application)
+- **Project Link**: [https://github.com/islam-eldein/DUA-APP](https://github.com/islam-eldein/DUA-APP)
 
 ---
 
@@ -168,5 +168,5 @@ If you have any questions or need support, feel free to reach out:
 Distributed under the **MIT License**. See `LICENSE` for more information.
 
 <p align="center">
-  <b>Created by <a href="https://github.com/MOELSHAFEY">ISLAM ELDEIN</a> - 2026</b>
+  <b>Created by <a href="https://github.com/islam-eldein">ISLAM ELDEIN</a> - 2026</b>
 </p>
