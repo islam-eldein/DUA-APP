@@ -11,7 +11,7 @@ class AppInfoScreen extends StatelessWidget {
     return Scaffold(
       backgroundColor: AppColors.scaffoldBackground,
       appBar: AppBar(
-        title: const Text('عن التطبيق'),
+        title: const Text('المساعدة'),
         backgroundColor: Colors.transparent,
         elevation: 0,
         centerTitle: true,

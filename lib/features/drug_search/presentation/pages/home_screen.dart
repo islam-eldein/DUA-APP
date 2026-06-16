@@ -106,7 +106,7 @@ class _HomeScreenState extends State<HomeScreen> {
           ),
           _buildDrawerItem(
             icon: Icons.info_outline_rounded,
-            title: 'عن التطبيق',
+            title: 'المساعدة',
             color: AppColors.primary,
             onTap: () {
               Navigator.pop(context);
@@ -359,7 +359,7 @@ class _HomeScreenState extends State<HomeScreen> {
       elevation: 4,
       centerTitle: true,
       title: Text(
-        'Dua',
+        'دوا - Dua',
         style: GoogleFonts.cairo(
           fontWeight: FontWeight.w900,
           color: AppColors.primary,

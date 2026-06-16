@@ -104,7 +104,7 @@ class _CheckAccessScreenState extends State<CheckAccessScreen> {
                         duration: const Duration(milliseconds: 700),
                         delay: const Duration(milliseconds: 200),
                         child: Text(
-                          'جاري تأمين اتصالك بالخادم...',
+                          'جاري تأمين اتصالك بالخادم..',
                           style: GoogleFonts.cairo(
                             fontSize: 16,
                             color: Colors.white.withValues(alpha: 0.8),
@@ -130,8 +130,8 @@ class _CheckAccessScreenState extends State<CheckAccessScreen> {
       barrierDismissible: false,
       builder: (_) => _AppDialog(
             icon: Icons.system_update_alt,
-            title: "تحديث مطلوب",
-            message: "للاستمرار، يرجى تحديث التطبيق إلى أحدث إصدار.",
+            title: "يتوفر تحديث جديد",
+            message: "للإستمرار، يرجى تحديث التطبيق إلى أحدث إصدار.",
             buttonText: "تحديث الآن",
             onPressed: () async {
               final uri = Uri.parse(updateUrl);
@@ -149,7 +149,7 @@ class _CheckAccessScreenState extends State<CheckAccessScreen> {
       barrierDismissible: false,
       builder: (_) => _AppDialog(
             icon: Icons.wifi_off,
-            title: "مشكلة اتصال",
+            title: "مشكلة بالإتصال",
             message: message,
             buttonText: "إعادة المحاولة",
             onPressed: () {
