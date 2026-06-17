@@ -131,7 +131,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 ),
                 const SizedBox(height: 4),
                 Text(
-                  'ISLAM ELDEIN - 2026',
+                  'ISLAM ELDEIN',
                   style: GoogleFonts.cairo(
                     fontSize: 12,
                     color: AppColors.textLight.withValues(alpha: 0.6),

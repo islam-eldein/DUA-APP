@@ -91,10 +91,10 @@ class AppInfoScreen extends StatelessWidget {
             
             _buildInfoCard(
               title: 'المميزات الرئيسية',
-              content: '• بحث ذكي وشامل عن الأدوية\n'
-                       '• معرفة البدائل المتاحة\n'
-                       '• حفظ الأدوية المفضلة\n'
-                       '• يتطلب اتصالاً بالإنترنت للبحث',
+              content: '• بحث ذكي وشامل عن الأدوية.\n'
+                       '• معرفة أسعار الأدوية.\n'
+                       '• معرفة البدائل المتاحة.\n'
+                       '• حفظ الأدوية المفضلة.',
               icon: Icons.auto_awesome_rounded,
             ),
 
@@ -191,7 +191,7 @@ class AppInfoScreen extends StatelessWidget {
           ),
           const SizedBox(height: 8),
           Text(
-            'للإقتراحات أو الإبلاغ عن أي مشكلة تقنية، يمكنك التواصل مباشرة مع المطور عبر تطبيق تيليجرام',
+            'للإقتراحات أو الإبلاغ عن أي مشكلة تقنية، يمكنك التواصل مباشرة مع المطور عبر تطبيق تيليجرام.',
             style: GoogleFonts.cairo(
               fontSize: 13,
               color: AppColors.textSecondary,

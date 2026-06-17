@@ -18,7 +18,7 @@ class AccessRepositoryImpl implements AccessRepository {
     } on ServerException catch (e) {
       return Left(ServerFailure(e.message));
     } on NetworkException {
-      return const Left(NetworkFailure('مشكلة في الإتصال بالإنترنت'));
+      return const Left(NetworkFailure('تحقق من اتصالك بالإنترنت'));
     } catch (e) {
       return Left(ServerFailure(e.toString()));
     }

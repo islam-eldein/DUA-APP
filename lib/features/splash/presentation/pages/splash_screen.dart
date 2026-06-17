@@ -163,7 +163,7 @@ class _SplashScreenState extends State<SplashScreen> {
                       ),
                       const SizedBox(height: 4),
                       Text(
-                        'ISLAM ELDEIN - 2026',
+                        'ISLAM ELDEIN',
                         style: GoogleFonts.cairo(
                           fontSize: 14,
                           fontWeight: FontWeight.bold,

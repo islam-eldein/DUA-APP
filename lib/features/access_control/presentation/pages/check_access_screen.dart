@@ -130,7 +130,7 @@ class _CheckAccessScreenState extends State<CheckAccessScreen> {
       barrierDismissible: false,
       builder: (_) => _AppDialog(
             icon: Icons.system_update_alt,
-            title: "يتوفر تحديث جديد",
+            title: "تحديث جديد",
             message: "للإستمرار، يرجى تحديث التطبيق إلى أحدث إصدار.",
             buttonText: "تحديث الآن",
             onPressed: () async {
@@ -149,7 +149,7 @@ class _CheckAccessScreenState extends State<CheckAccessScreen> {
       barrierDismissible: false,
       builder: (_) => _AppDialog(
             icon: Icons.wifi_off,
-            title: "مشكلة بالإتصال",
+            title: "غير متصل",
             message: message,
             buttonText: "إعادة المحاولة",
             onPressed: () {

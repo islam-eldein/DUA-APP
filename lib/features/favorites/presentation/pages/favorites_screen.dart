@@ -43,7 +43,7 @@ class FavoritesScreen extends StatelessWidget {
               return EmptyStateWidget(
                 icon: Icons.favorite_border,
                 title: 'لا توجد أدوية في المفضلة',
-                subtitle: 'ابحث عن الأدوية وأضفها إلى المفضلة لتسهيل الوصول إليها لاحقاً',
+                subtitle: 'ابحث عن الأدوية وأضفها إلى المفضلة لتسهيل الوصول إليها لاحقاً.',
               );
             }
 
